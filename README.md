@@ -32,5 +32,11 @@ Run the notebooks in this order:
 3. `query_01_filter_sort.ipynb` — select, filter, and sort records.
 4. `query_02_aggregations.ipynb` — summarize data with aggregate functions, `GROUP BY`, and `HAVING`.
 5. `query_03_joins.ipynb` — combine related tables with joins.
+6. `query_04_subqueries_sets.ipynb` — use subqueries and set operations.
+7. `query_05_case_functions_nulls.ipynb` — categorize values and handle missing data with SQLite functions.
+8. `query_06_window_functions.ipynb` — rank rows and calculate running totals.
+9. `query_07_ctes_temp_tables.ipynb` — use CTEs, check data quality, and work with temporary tables.
+10. `query_08_indexes_query_plans.ipynb` — compare SQLite query plans using a temporary indexed copy.
+11. `query_09_transactions.ipynb` — practice `COMMIT` and `ROLLBACK` without changing the source data.
 
 The `queries.ipynb` and `sql-notebook.ipynb` notebooks provide an overview of the query lessons and recommended order. If you rerun `dml.ipynb`, run `ddl.ipynb` first so the tables are empty.
