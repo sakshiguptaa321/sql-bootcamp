@@ -1,4 +1,4 @@
-# Learning SQL
+# SQL Bootcamp
 
 A hands-on SQL practice repository using SQLite and Jupyter notebooks. The exercises focus on defining tables, inserting data, and querying a food-orders dataset. A separate set of student-related CSV files is included for additional practice.
 
