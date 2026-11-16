@@ -1,0 +1,11 @@
+CourseID,CourseName,Credits,DeptID
+201,SQL,4,2
+202,Python,4,1
+203,Java,3,1
+204,Data Analytics,4,2
+205,Computer Networks,3,2
+206,Electronics,4,3
+207,Statistics,3,5
+208,Database Management,4,1
+209,Machine Learning,4,1
+210,Engineering Mathematics,4,4

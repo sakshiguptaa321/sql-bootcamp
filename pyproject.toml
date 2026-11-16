@@ -1,0 +1,13 @@
+[project]
+name = "learning-sql"
+version = "0.1.0"
+description = "SQL practice with SQLite in Jupyter notebooks"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29",
+    "ipython-sql>=0.5.0",
+    "prettytable<3.12",
+]
+
+[tool.uv]
+package = false

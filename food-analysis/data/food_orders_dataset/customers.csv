@@ -1,0 +1,121 @@
+customer_id,customer_name,city,area,signup_date
+C0001,Divya Nair,Bengaluru,Indiranagar,2025-10-09
+C0002,Kavya Menon,Bengaluru,HSR Layout,2025-04-15
+C0003,Rohan Chopra,Bengaluru,Koramangala,2026-08-28
+C0004,Riya Reddy,Bengaluru,Indiranagar,2025-04-06
+C0005,Ishaan Menon,Bengaluru,JP Nagar,2026-09-09
+C0006,Aarav Chopra,Bengaluru,Whitefield,2026-10-28
+C0007,Neha Chopra,Bengaluru,BTM Layout,2025-08-14
+C0008,Sanjay Bhat,Bengaluru,Jayanagar,2025-01-07
+C0009,Anil Kumar,Bengaluru,Rajajinagar,2026-03-09
+C0010,Nikhil Gupta,Bengaluru,HSR Layout,2025-08-09
+C0011,Anil Verma,Bengaluru,Koramangala,2025-04-05
+C0012,Rahul Nair,Bengaluru,Marathahalli,2025-12-19
+C0013,Manoj Gupta,Bengaluru,Indiranagar,2026-04-16
+C0014,Vikram Nair,Bengaluru,BTM Layout,2025-03-22
+C0015,Vikram Shetty,Bengaluru,Electronic City,2026-09-26
+C0016,Abhishek Joshi,Bengaluru,Bellandur,2025-07-16
+C0017,Neha Iyer,Bengaluru,Indiranagar,2026-11-09
+C0018,Kavya Shetty,Bengaluru,Koramangala,2025-08-27
+C0019,Shreya Nair,Bengaluru,BTM Layout,2025-10-12
+C0020,Sanjay Joshi,Bengaluru,HSR Layout,2026-01-15
+C0021,Pooja Rao,Bengaluru,Electronic City,2025-10-01
+C0022,Neha Iyer,Bengaluru,Bellandur,2026-10-13
+C0023,Diya Chopra,Bengaluru,Rajajinagar,2025-09-08
+C0024,Diya Pillai,Bengaluru,BTM Layout,2025-10-04
+C0025,Lakshmi Chopra,Bengaluru,Whitefield,2025-11-29
+C0026,Karthik Reddy,Bengaluru,Whitefield,2025-02-02
+C0027,Swati Verma,Bengaluru,BTM Layout,2025-10-02
+C0028,Akash Rao,Bengaluru,Bellandur,2025-11-19
+C0029,Ishaan Gowda,Bengaluru,BTM Layout,2026-10-21
+C0030,Sanjay Patel,Bengaluru,Jayanagar,2025-05-23
+C0031,Kavya Chopra,Bengaluru,JP Nagar,2025-09-27
+C0032,Suresh Bhat,Bengaluru,BTM Layout,2026-08-21
+C0033,Rahul Joshi,Bengaluru,Whitefield,2025-05-22
+C0034,Varun Gowda,Bengaluru,Koramangala,2025-02-18
+C0035,Shreya Nair,Bengaluru,HSR Layout,2026-10-05
+C0036,Diya Mishra,Bengaluru,Bellandur,2025-03-07
+C0037,Rahul Das,Bengaluru,Bellandur,2026-04-25
+C0038,Varun Gupta,Bengaluru,JP Nagar,2025-01-12
+C0039,Rohan Nair,Bengaluru,Electronic City,2026-07-04
+C0040,Anil Gupta,Bengaluru,Electronic City,2025-12-15
+C0041,Ananya Shetty,Bengaluru,BTM Layout,2025-06-11
+C0042,Sanjay Sharma,Bengaluru,Rajajinagar,2025-09-27
+C0043,Varun Kumar,Bengaluru,JP Nagar,2025-04-19
+C0044,Shreya Shetty,Bengaluru,Electronic City,2026-06-04
+C0045,Manoj Rao,Bengaluru,HSR Layout,2026-01-18
+C0046,Anil Kumar,Bengaluru,JP Nagar,2026-06-28
+C0047,Lakshmi Sharma,Bengaluru,Bellandur,2025-11-28
+C0048,Sneha Sharma,Bengaluru,Koramangala,2026-01-07
+C0049,Abhishek Shetty,Bengaluru,Whitefield,2025-03-01
+C0050,Kavya Bhat,Bengaluru,Koramangala,2025-03-29
+C0051,Suresh Gowda,Bengaluru,Koramangala,2026-06-30
+C0052,Anil Patel,Bengaluru,HSR Layout,2026-11-07
+C0053,Sneha Chopra,Bengaluru,HSR Layout,2025-09-29
+C0054,Varun Kulkarni,Bengaluru,BTM Layout,2025-08-05
+C0055,Lakshmi Chopra,Bengaluru,Rajajinagar,2025-07-25
+C0056,Neha Shetty,Bengaluru,BTM Layout,2026-10-28
+C0057,Pooja Pillai,Bengaluru,JP Nagar,2026-04-08
+C0058,Ananya Menon,Bengaluru,Whitefield,2025-03-07
+C0059,Nikhil Sharma,Bengaluru,Bellandur,2026-07-22
+C0060,Kavya Bhat,Bengaluru,Whitefield,2025-01-08
+C0061,Akash Reddy,Bengaluru,Whitefield,2025-03-11
+C0062,Abhishek Reddy,Bengaluru,Marathahalli,2025-03-14
+C0063,Varun Menon,Bengaluru,Jayanagar,2026-05-13
+C0064,Ishaan Chopra,Bengaluru,HSR Layout,2026-08-08
+C0065,Priya Gowda,Bengaluru,Whitefield,2026-04-30
+C0066,Swati Mishra,Bengaluru,Whitefield,2025-04-07
+C0067,Ananya Mishra,Bengaluru,Marathahalli,2026-03-10
+C0068,Riya Pillai,Bengaluru,Rajajinagar,2025-02-25
+C0069,Rohan Nair,Bengaluru,Indiranagar,2026-02-17
+C0070,Suresh Verma,Bengaluru,Koramangala,2025-09-12
+C0071,Ishaan Rao,Bengaluru,JP Nagar,2026-04-05
+C0072,Arjun Mishra,Bengaluru,HSR Layout,2025-10-13
+C0073,Sanjay Menon,Bengaluru,Koramangala,2026-03-30
+C0074,Swati Chopra,Bengaluru,Koramangala,2025-02-21
+C0075,Divya Chopra,Bengaluru,Indiranagar,2025-04-06
+C0076,Lakshmi Menon,Bengaluru,HSR Layout,2026-02-21
+C0077,Sneha Gowda,Bengaluru,Whitefield,2026-02-15
+C0078,Abhishek Reddy,Bengaluru,HSR Layout,2026-01-24
+C0079,Aarav Das,Bengaluru,Jayanagar,2026-04-11
+C0080,Meera Mishra,Bengaluru,Rajajinagar,2026-07-24
+C0081,Rohan Gowda,Bengaluru,HSR Layout,2025-07-14
+C0082,Meera Rao,Bengaluru,Indiranagar,2026-08-17
+C0083,Suresh Chopra,Bengaluru,Indiranagar,2025-11-18
+C0084,Aditi Reddy,Bengaluru,Bellandur,2026-05-04
+C0085,Varun Singh,Bengaluru,HSR Layout,2025-02-28
+C0086,Varun Iyer,Bengaluru,HSR Layout,2025-03-12
+C0087,Manoj Iyer,Bengaluru,Electronic City,2025-08-29
+C0088,Rahul Nair,Bengaluru,Bellandur,2025-09-10
+C0089,Priya Kulkarni,Bengaluru,Indiranagar,2026-09-27
+C0090,Akash Mishra,Bengaluru,Electronic City,2026-08-21
+C0091,Priya Singh,Bengaluru,Marathahalli,2025-09-25
+C0092,Ishaan Verma,Bengaluru,Whitefield,2025-09-29
+C0093,Rahul Patel,Bengaluru,Electronic City,2026-10-23
+C0094,Meera Pillai,Bengaluru,Marathahalli,2025-03-16
+C0095,Aarav Pillai,Bengaluru,Bellandur,2026-07-31
+C0096,Ananya Iyer,Bengaluru,JP Nagar,2025-08-07
+C0097,Varun Gupta,Bengaluru,HSR Layout,2025-12-24
+C0098,Abhishek Iyer,Bengaluru,Whitefield,2026-01-14
+C0099,Meera Kumar,Bengaluru,Malleshwaram,2026-07-11
+C0100,Neha Shetty,Bengaluru,Bellandur,2026-11-01
+C0101,Varun Sharma,Bengaluru,Electronic City,2026-07-22
+C0102,Meera Nair,Bengaluru,HSR Layout,2025-09-28
+C0103,Ananya Nair,Bengaluru,Rajajinagar,2026-07-21
+C0104,Arjun Gupta,Bengaluru,Jayanagar,2026-09-12
+C0105,Ishaan Verma,Bengaluru,Whitefield,2026-10-12
+C0106,Shreya Gupta,Bengaluru,JP Nagar,2026-05-16
+C0107,Kiran Reddy,Bengaluru,Koramangala,2026-10-12
+C0108,Riya Gupta,Bengaluru,Indiranagar,2025-01-04
+C0109,Nikhil Patel,Bengaluru,Electronic City,2025-09-26
+C0110,Diya Pillai,Bengaluru,JP Nagar,2026-03-14
+C0111,Vikram Sharma,Bengaluru,Koramangala,2025-03-19
+C0112,Abhishek Patel,Bengaluru,JP Nagar,2025-02-06
+C0113,Karthik Joshi,Bengaluru,Bellandur,2026-07-20
+C0114,Arjun Mishra,Bengaluru,HSR Layout,2025-02-12
+C0115,Meera Joshi,Bengaluru,Indiranagar,2026-01-02
+C0116,Ishaan Menon,Bengaluru,Electronic City,2025-04-16
+C0117,Pooja Chopra,Bengaluru,BTM Layout,2026-09-28
+C0118,Suresh Patel,Bengaluru,Whitefield,2025-06-16
+C0119,Swati Kumar,Bengaluru,BTM Layout,2025-01-26
+C0120,Diya Verma,Bengaluru,BTM Layout,2025-09-12

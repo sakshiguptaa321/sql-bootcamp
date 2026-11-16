@@ -1,0 +1,13 @@
+product_id,product_name,category,unit_price
+P001,Steamed momos,Momos,120
+P002,Fried momos,Momos,140
+P003,Chicken momos,Momos,170
+P004,Thukpa,Noodles & soups,180
+P005,Garlic noodles,Noodles & rice,160
+P006,Fried rice,Noodles & rice,150
+P007,Schezwan fried rice,Noodles & rice,175
+P008,Chilli potato,Starters,145
+P009,Veg spring rolls,Starters,130
+P010,Paneer momos,Momos,165
+P011,Chicken thukpa,Noodles & soups,210
+P012,Hakka noodles,Noodles & rice,155
