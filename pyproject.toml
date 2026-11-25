@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "SQL practice with SQLite in Jupyter notebooks"
 requires-python = ">=3.11"
 dependencies = [
+    "contextily>=1.7.0",
+    "folium>=0.20",
+    "geopandas>=1.1.0",
     "ipykernel>=6.29",
     "ipython-sql>=0.5.0",
     "matplotlib>=3.10",
