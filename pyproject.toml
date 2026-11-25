@@ -12,10 +12,21 @@ dependencies = [
     "matplotlib>=3.10",
     "oracledb>=26.1.0",
     "pandas>=2.2",
+    "plotly>=6.0",
+    "poethepoet>=0.30",
     "prettytable<3.12",
     "python-dotenv>=1.2.4",
     "sqlalchemy>=2.1.8",
+    "streamlit>=1.40",
 ]
+
+[tool.poe.tasks]
+dashboard = { cmd = "streamlit run Home.py", cwd = "oracle-food-analysis/streamlit-dashboard" }
+oracle-up = "docker compose --env-file .env -f oracle-food-analysis/docker-compose.yml up -d"
+oracle-stop = "docker compose --env-file .env -f oracle-food-analysis/docker-compose.yml stop"
+oracle-down = "docker compose --env-file .env -f oracle-food-analysis/docker-compose.yml down"
+oracle-status = "docker ps -a --filter name=learning-sql-oracle --format \"table {{.Names}}\\t{{.Status}}\\t{{.Ports}}\""
 
 [tool.uv]
 package = false
+
