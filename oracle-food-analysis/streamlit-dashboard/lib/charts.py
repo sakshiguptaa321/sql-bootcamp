@@ -11,8 +11,8 @@ def sales_trend(df: pd.DataFrame, date_col: str = 'order_placed_at') -> None:
         .rename(columns={'_date': 'date', 'order_amount': 'total_sales'})
     )
     fig = px.line(trend, x='date', y='total_sales', markers=True, title='Sales Trend')
-    fig.update_layout(yaxis_title='Total Sales (?)', xaxis_title='Date')
-    st.plotly_chart(fig, use_container_width=True)
+    fig.update_layout(yaxis_title='Total Sales (INR)', xaxis_title='Date')
+    st.plotly_chart(fig, width='stretch')
 
 
 def top_n_bar(df: pd.DataFrame, category: str, value: str, title: str, n: int = 10) -> None:
@@ -24,5 +24,4 @@ def top_n_bar(df: pd.DataFrame, category: str, value: str, title: str, n: int = 
     )
     fig = px.bar(grouped, x=value, y=category, orientation='h', title=title, text_auto='.2s')
     fig.update_layout(yaxis={'categoryorder': 'total ascending'})
-    st.plotly_chart(fig, use_container_width=True)
-
+    st.plotly_chart(fig, width='stretch')

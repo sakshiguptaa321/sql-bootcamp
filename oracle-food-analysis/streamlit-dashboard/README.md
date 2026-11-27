@@ -7,12 +7,12 @@ This folder contains a modular Streamlit app for Oracle `FOOD_ANALYSIS` dashboar
 ```text
 streamlit-dashboard/
   Home.py                 # Home / entry point
-  pages/                  # Add one file per dashboard page
-    1_Sales_Overview.py
-    2_Customer_Map.py
+  views/                  # Add one file per dashboard page
+    sales_overview.py
+    customer_map.py
   lib/
     db.py                 # Oracle engine + cached query helper
-    filters.py            # Reusable global sidebar filters
+    filters.py            # Reusable global filters at the top of each page
     metrics.py            # KPI cards
     charts.py             # Reusable chart components
 ```
@@ -36,7 +36,7 @@ uv run streamlit run oracle-food-analysis/streamlit-dashboard/Home.py
 
 ## Add a new dashboard
 
-1. Create `pages/3_My_Dashboard.py`.
+1. Create `views/3_My_Dashboard.py`.
 2. Query data with `lib.db.run_query`.
 3. Apply shared filters with `lib.filters.apply_global_filters`.
 4. Reuse KPI/chart helpers or add new helpers in `lib/`.
@@ -48,6 +48,7 @@ uv run streamlit run oracle-food-analysis/streamlit-dashboard/Home.py
 - Cache expensive queries with `st.cache_data(ttl=...)`.
 - Cache the DB engine with `st.cache_resource`.
 - Keep filters consistent across pages (date, city, area, status).
+- The Customer Map uses GeoPandas/Matplotlib; Sales Overview charts continue to use Plotly.
 - Define metric logic once (e.g., sales = `SUM(order_amount)`, exclude cancelled?).
 
 

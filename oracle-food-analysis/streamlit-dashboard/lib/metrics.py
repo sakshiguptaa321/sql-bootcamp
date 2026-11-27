@@ -9,8 +9,7 @@ def render_kpis(df: pd.DataFrame) -> None:
     active_customers = int(df['customer_id'].nunique()) if 'customer_id' in df else 0
 
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric('Total Sales', f'?{total_sales:,.0f}')
+    c1.metric('Total Sales', f'INR {total_sales:,.0f}')
     c2.metric('Total Orders', f'{total_orders:,}')
-    c3.metric('Avg Order Value', f'?{avg_order_value:,.0f}')
+    c3.metric('Avg Order Value', f'INR {avg_order_value:,.0f}')
     c4.metric('Active Customers', f'{active_customers:,}')
-
